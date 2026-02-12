@@ -60,7 +60,12 @@ cd src/frontend
 npm install
 npm run dev
 Open http://localhost:3000 to view the app.
-
+to install dependencies:
+run 
+bash
+```
+pip install -r requirements.txt
+```
 ☁️ Cloud Deployment
 This project is optimized for Azure. To deploy the infrastructure:
 
