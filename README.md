@@ -1,7 +1,9 @@
-AI Tutor App 🎓
+🎓 AI Tutor App 
+
 An intelligent, AI-powered educational platform designed to provide personalized mentorship, automated evaluation, and interactive learning experiences. This application leverages Large Language Models (LLMs) to bridge the gap between students and educators.
 
 🚀 Features
+
 Interactive AI Avatar: Real-time conversational learning via a Speech-to-Text and Text-to-Speech enabled AI mentor.
 
 Automated Essay Grading: AI-driven evaluation of long-form writing with detailed feedback on grammar, structure, and tone.
@@ -13,6 +15,7 @@ Professor Dashboard: A comprehensive interface for educators to monitor student 
 Semantic Search: Powered by a Vector Database (Azure AI Search) to retrieve relevant course material and historical context.
 
 🛠️ Architecture
+
 The app is built using a microservices-inspired architecture:
 
 Frontend: React / Next.js (located in src/frontend)
@@ -30,6 +33,7 @@ configuration: Allows professors to tune the AI's behavior.
 Infrastructure: Infrastructure as Code (Bicep) for seamless deployment to Azure.
 
 📋 Prerequisites
+
 Before you begin, ensure you have the following installed:
 
 Python 3.10+
@@ -38,8 +42,8 @@ Node.js 18+
 
 Poetry (Python dependency management)
 
-
 🔧 Installation & Setup
+
 1. Clone the Repository
 Bash
 ```
@@ -73,6 +77,7 @@ pip install -r requirements.txt
 
 
 🤝 Contributing
+
 Fork the Project
 
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
@@ -82,6 +87,3 @@ Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
-
-📝 License
-Distributed under the MIT License. See LICENSE for more information.
