@@ -38,22 +38,26 @@ Node.js 18+
 
 Poetry (Python dependency management)
 
-Azure CLI (for cloud deployment)
-
-Docker (optional, for containerization)
 
 🔧 Installation & Setup
 1. Clone the Repository
 Bash
+```
 git clone https://github.com/ArulSrivastva-AVV/AI-TUTOR-APP.git
 cd AI-TUTOR-APP
+```
 2. Backend Setup
+ bash
+ ```
 Navigate to each service in src/ (e.g., src/essays) and install dependencies:
-
+```
 Bash
+```
 cd src/<service_name>
 poetry install
 poetry run uvicorn app.main:app --reload
+```
+
 3. Frontend Setup
 Bash
 cd src/frontend
@@ -66,25 +70,7 @@ bash
 ```
 pip install -r requirements.txt
 ```
-☁️ Cloud Deployment
-This project is optimized for Azure. To deploy the infrastructure:
 
-Login to Azure: az login
-
-Deploy via Bicep:
-
-Bash
-az deployment sub create --location <location> --template-file infra/main.bicep --parameters rgName=<resource-group-name>
-📄 Environment Variables
-Create a .env file in the root of each backend service with the following keys:
-
-AZURE_OPENAI_API_KEY
-
-AZURE_OPENAI_ENDPOINT
-
-AZURE_SEARCH_SERVICE_ENDPOINT
-
-AZURE_SEARCH_API_KEY
 
 🤝 Contributing
 Fork the Project
