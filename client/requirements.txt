@@ -10,10 +10,6 @@ langchain-openai==0.0.8
 openai==1.13.3
 tiktoken==0.6.0
 
-# Database & Search (Azure AI Search / Vector DB)
-azure-search-documents==11.4.0
-azure-identity==1.15.0
-
 # Document Processing (for Essays and PDF reading)
 pypdf==4.1.0
 python-docx==1.1.0
